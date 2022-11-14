@@ -13,5 +13,10 @@ struct keyboardShortcutTestApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        .commands {
+            ToolbarCommands()
+            EditCommands()
+        }
     }
 }

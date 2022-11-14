@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+     @State var change = 1
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            Text("\(change)")
+                .font(.system(size: 100))
+            .focusedSceneValue(\.change, $change)
+            .frame(minWidth: 200, minHeight: 200)
         }
-        .padding()
     }
 }
 

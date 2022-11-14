@@ -14,6 +14,7 @@
 		F773B59529212C28007C852B /* keyboardShortcutTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773B59429212C28007C852B /* keyboardShortcutTestTests.swift */; };
 		F773B59F29212C28007C852B /* keyboardShortcutTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773B59E29212C28007C852B /* keyboardShortcutTestUITests.swift */; };
 		F773B5A129212C28007C852B /* keyboardShortcutTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773B5A029212C28007C852B /* keyboardShortcutTestUITestsLaunchTests.swift */; };
+		F773B5AE29212D1F007C852B /* Commands.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773B5AD29212D1F007C852B /* Commands.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F773B59A29212C28007C852B /* keyboardShortcutTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keyboardShortcutTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F773B59E29212C28007C852B /* keyboardShortcutTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardShortcutTestUITests.swift; sourceTree = "<group>"; };
 		F773B5A029212C28007C852B /* keyboardShortcutTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keyboardShortcutTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F773B5AD29212D1F007C852B /* Commands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commands.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				F773B58229212C27007C852B /* keyboardShortcutTestApp.swift */,
+				F773B5AD29212D1F007C852B /* Commands.swift */,
 				F773B58429212C27007C852B /* ContentView.swift */,
 				F773B58629212C27007C852B /* Assets.xcassets */,
 				F773B58829212C27007C852B /* keyboardShortcutTest.entitlements */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F773B58529212C27007C852B /* ContentView.swift in Sources */,
+				F773B5AE29212D1F007C852B /* Commands.swift in Sources */,
 				F773B58329212C27007C852B /* keyboardShortcutTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
